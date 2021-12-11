@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: silver;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  min-height: 40px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 8px;
+}
+header a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+header input {
+  border-radius: 8px;
+}
+header input:active {
+  background-color: lightgreen;
+}
+.strip {
+  background: url(https://www.shell.com/energy-and-innovation/the-energy-future/scenarios/shell-scenario-sky/_jcr_content/pagePromo/image.img.960.jpeg/1548184031017/clear-blue-sky.jpeg);
+  background-position: center;
+  min-height: 200px;
+  display: flex;
+  align-items: flex-end;
+}
+main {
+  min-height: 350px;
+}
+main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .box {
+  margin: 24px 0;
+  padding: 24px;
+  width: 20%;
+  border: none;
+  background-color: gray;
+  border-radius: 8px;
+  text-align: center;
+}
+main .box h3 {
+  background-color: darkcyan;
+}
+.box i {
+  font-size: 48px;
+  margin: 4px;
+}
+.box p {
+  text-align: center;
+}
+.box button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+footer {
+  min-height: 60px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .details {
+  margin: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about li,
+.services li,
+.contact li {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+footer a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+/* footer .payment {
+  margin-top: 40px;
+} */
